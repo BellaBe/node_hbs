@@ -1,0 +1,19 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.0",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
